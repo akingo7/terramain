@@ -18,5 +18,4 @@ module "s3-backend-app" {
   region  = var.region
   dev_prefix  = var.dev_prefix
   prod_prefix = var.prod_prefix
-  name    = var.name
 }
