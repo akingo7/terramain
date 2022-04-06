@@ -2,7 +2,11 @@ variable "name" {
   description = "Bucket Owner Name"
 }
 
-variable "prefix" {
+variable "dev_prefix" {
+  description = "Bucket Prefix"
+}
+
+variable "prod_prefix" {
   description = "Bucket Prefix"
 }
 
