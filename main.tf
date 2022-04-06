@@ -16,6 +16,7 @@ module "s3-backend-app" {
   source  = "app.terraform.io/gabrieldevops/s3-backend-app/aws"
   version = "1.0.0"
   region  = var.region
-  prefix  = var.prefix
+  dev_prefix  = var.prefix
+  prod_prifix = var.prefix
   name    = var.name
 }
